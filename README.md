@@ -1,8 +1,6 @@
-﻿# Wildbeast
+﻿# The Martian Band - Flexbox
 
-Projeto do curso <a href="https://www.origamid.com/curso/css-grid-layout/">CSS Grid Layout</a> da <a href="https://www.origamid.com/">origamid.com</a>.
-
-Projeto realizado com o intuito de praticar a produção de páginas na web, se utilizando de HTML e colocando em prática a nova especificação CSS Grid Layout.
+Projeto pessoal realizado visando praticar os conhecimentos em HTML e CSS, utilizando o flexbox para posicionar os elementos da página.
 
 <img src="./github/tmbflexbox.gif" width="400">
 
