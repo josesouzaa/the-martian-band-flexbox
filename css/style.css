@@ -1,0 +1,334 @@
+﻿body, h1, h2, h3, p, ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: 'Blinker', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Menu */
+
+.menu {
+    background: #252525;
+}
+
+.menu-container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav li {
+    margin-right: 10px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.menu-nav ul li a {
+    font-family: 'Blinker', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.125em;
+    color: white;
+}
+
+/* Introdução */
+
+.intro {
+    background: url(../img/mars-intro.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.intro h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+/* História */
+
+.historia {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.historia h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.historia p {
+    max-width: 460px;
+    margin: 0px auto 0px auto;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* Integrantes */
+
+.integrantes {
+    background: url(../img/mars-inte2.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 20px 0 0 0;
+}
+
+.integrantes h2 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0px 30px 0px;
+    text-align: center;
+}
+
+.integrantes-container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.integrante-item {
+    margin-bottom: 30px;
+    padding: 0 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.integrante-item img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: #252525 solid;
+}
+
+.integrante-item h3 {
+    color: white;
+    margin: 10px 0px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.integrante-item p {
+    color: white;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+/* Discos */
+
+.discos h2 {
+    text-align: center;
+    margin: 30px 0px 40px 0px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.discos-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.disco1, .disco2 {
+    display: flex;
+}
+
+.capa, .musics {
+    flex: 1;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.musics h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.musics ol li {
+    list-style-type: inherit;
+    font-family: 'Blinker', sans-serif;
+    font-size: 1.5em;
+    margin: 20px 0; 
+}
+
+/* Contato */
+
+.contato {
+    background: #A63838;
+    background-size: 100%;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.contato h2 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0px 30px 0px;
+    text-align: center;
+}
+
+.contato-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.form, .outros {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.form label, .form input {
+    display: block;
+}
+
+.form label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px;
+}
+
+.form input {
+    background: #838383;
+    border: black solid 3px;
+    width: 300px;
+}
+
+.form button {
+    background: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    margin: 20px 0px;
+}
+
+.outros2 li {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.outros2 li:last-child {
+    margin-bottom: 40px;
+}
+
+.redes li {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    border: black solid 4px;
+}
+
+.outros h3 {
+    color: white;
+    font-size: 1.5em;
+    margin: 20px 0px;
+}
+
+.msg {
+    height: 100px;
+}
+
+/* Footer */
+
+.footer {
+    background: #66211b;
+}
+
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+}
+
+.footertext p, .footertext a {
+    color: white;
+}
+
+
+@media (max-width: 630px) {
+    /* .integrantes-container {
+        flex-direction: column;
+    } */
+    .disco1, .disco2 {
+        flex-direction: column;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .musics h3 {
+        font-size: 1.75em;
+    }
+    
+    .musics ol li {
+        font-size: 1.25em;
+    }
+    .contato-container {
+        flex-direction: column;
+    }
+    .redes {
+        margin-bottom: 20px;
+    }
+    .menu-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 630px) {
+    .integrantes-container {
+        max-width: 440px;
+    }
+    .integrante-item {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 439px) {
+    .integrantes-container {
+        flex-direction: column;
+    }
+}
